@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brisa Marina</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+        <!-- Header Section -->
+    <header class="header" id="header">
+        <!-- Logo and Navigation Menu -->
+    <div class="logo">
+        <img src="https://e7.pngegg.com/pngimages/572/250/png-clipart-cross-stitch-embroidery-summer-vacation-theme-leaf-photography.png"
+        alt="Logo Restaurante"> Brisa Marina
+    </div>
+
+    <div class="menu">   
+        <nav class="nav" id="menu">
+        <ul>
+            <li id="menu_1"><a href="Restaurante.html">Inicio</a></li>
+            <li id="menu_2">
+                <a href="#">Restaurante</a>
+                <ul class="dropdown">
+                    <li><a href="#">Sobre Nosotros</a></li>
+                    <li><a href="#">Nuestra Historia</a></li>
+                    <li><a href="#">Equipo</a></li>
+                </ul>
+            </li>
+            <li id="menu_3">
+                <a href="#">Menu</a>
+                <ul class="dropdown">
+                    <li><a href="#">Entrantes</a></li>
+                    <li><a href="#">Platos Principales</a></li>
+                    <li><a href="#">Postres</a></li>
+                    <li><a href="#">Bebidas</a></li>
+                </ul>
+            </li>
+            <li id="menu_4">
+                <a href="#">Reservas</a>
+                <ul class="dropdown">
+                    <li><a href="#">Reservar Mesa</a></li>
+                    <li><a href="#">Eventos Especiales</a></li>
+                    <li><a href="#">Contacto para Reservas</a></li>
+                </ul>
+            </li>
+            <li id="menu_5">
+                <a href="#">Contactos</a>
+                <ul class="dropdown">
+                    <li><a href="#">Formulario de Contacto</a></li>
+                    <li><a href="#">Información de Contacto</a></li>
+                    <li><a href="#">Ubicación</a></li>
+                </ul>
+            </li>
+        </ul>
+        </nav>
+    </div>
+    </header>
+    <!-- Main Content Section -->
+    <main>
+        <!-- Banner Section with Carousel -->
+        <section class="banner">
+            <div class="carousel" id="carousel">
+        <input type="radio" name="carousel" id="slide1" checked>
+        <input type="radio" name="carousel" id="slide2">
+        <input type="radio" name="carousel" id="slide3">
+
+            <div class="slides">
+            <div class="slide s1">
+                <img src="https://www.juandoliolife.com/wp-content/uploads/2024/08/los-10-mejores-restaurantes-en-juan-dolio.jpg"
+                alt="Muelle Banner1">
+            </div>
+            <div class="slide s2">
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/7f/7f/61/img-20210105-131505658.jpg?w=900&h=-1&s=1"
+                alt="Playa Banner2">
+            </div>
+            <div class="slide s3">
+                <img src="https://www.coralcostacaribe.com/images/slides/slide-26.jpg" alt="Interior Banner3">
+            </div>
+        </div>
+        <label class="arrow left" for="slide3">&#10094;</label>
+        <label class="arrow right" for="slide2">&#10095;</label>
+        <label class="arrow left" for="slide1">&#10094;</label>
+        <label class="arrow right" for="slide3">&#10095;</label>
+        <label class="arrow left" for="slide2">&#10094;</label>
+        <label class="arrow right" for="slide1">&#10095;</label>
+
+        <div class="carousel-indicators">
+            <label>
+                <input type="radio" name="carousel-indicator" disabled 
+                    checked id="indicator1">
+                <span></span>
+            </label>
+            <label>
+                <input type="radio" name="carousel-indicator" disabled id="indicator2">
+                <span></span>
+            </label>
+            <label>
+                <input type="radio" name="carousel-indicator" disabled id="indicator3">
+                <span></span>
+            </label>
+        </div>
+    </div>
+    </div>
+        </section>
+
+        <!-- Content Section with Information about the Restaurant -->
+        <section class="content">
+            <div class="content-flex">
+                <div class="content-text">
+                    <h2>Sobre Nosotros</h2>
+                    <p>Brisa Marina es un restaurante ubicado en la hermosa costa, donde la frescura del mar se encuentra con la
+                        calidez de nuestra hospitalidad. Nuestro equipo está comprometido a ofrecerte una experiencia gastronómica excepcional.</p>
+                    <p>Desde nuestros platos de mariscos frescos hasta nuestras especialidades locales,
+                        cada bocado está diseñado para deleitar tus sentidos.</p>
+                    <p>Ven y disfruta de un ambiente relajante con vistas espectaculares al océano.</p>
+                </div>
+                <div class="content-image">
+                    <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/50000/50170-Juan-Dolio.jpg?impolicy=fcrop&w=550&h=309&p=1&q=high"
+                    alt="Camino Imagen">
+                </div>
+            </div>
+        </section>
+    
+</body>
+</html>
